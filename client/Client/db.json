@@ -1,0 +1,48 @@
+{
+  "users": [
+      {
+      "id": 1,
+      "first": "John",
+      "last" : "Doe",
+      "role": "Manager",
+      "dob": "01/01/2010",
+      "locationId" : 1,
+      "StatusId": 2
+      },
+      {
+        "id": 1,
+        "first": "John",
+        "last" : "Doe",
+        "role": "Manager",
+        "dob": "01/01/2010",
+        "locationId" : 2,
+        "StatusId": 1
+        }
+  ],
+  "locations":[
+      {
+      "id": 1,
+      "street" : "1100 South Marietta Pkwy SE" ,
+      "city" : "Marietta",
+      "state": "GA",
+      "zip": 30060
+      },
+      {
+      "id": 2,
+      "street" : "1000 Chastain Road" ,
+      "city" : "Kennesaw",
+      "state": "GA",
+      "zip": 300144
+      }
+    ],
+  "status":[
+      {
+      "id": 1,
+      "status":"Active"
+      },
+      {
+      "id": 2,
+      "status":"Not Active"
+      }
+  ]
+  }
