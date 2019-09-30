@@ -76,7 +76,11 @@ WSGI_APPLICATION = 'Backend_DB.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'theaccountantDB',
+        'USER': 'admin',
+        'PASSWORD': 'AppDomain!',
+        'HOST': 'accountantdb.cecg8fpgzvzf.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
