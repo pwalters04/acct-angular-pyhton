@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'Backend_DB.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'theaccountantDB',
         'USER': 'admin',
         'PASSWORD': 'AppDomain!',
